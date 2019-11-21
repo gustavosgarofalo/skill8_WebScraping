@@ -1,0 +1,30 @@
+.nav {
+    background-color: white;
+}
+
+.info_block {
+    width: 100%;
+    height: 100%;
+    background-color: gray;
+}
+
+.feat_img {
+    max-width: auto;
+    height: auto;
+    margin-left: 20px;
+    margin-right: 10px;
+}
+
+.img-fluid {
+    @include img-fluid();
+}
+
+.title_row {
+    text-align: left;
+}
+
+.responsive {
+    padding: 0 6px;
+    float: left;
+    width: 24.99999%;
+}
